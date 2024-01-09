@@ -22,6 +22,6 @@ func Hello() echo.HandlerFunc {
 
 func ApiHelloGet() echo.HandlerFunc {
     return func(c echo.Context) error {
-        return c.JSON(http.StatusOK, map[string]interface{}{"studentId": "学生番号", "message": "TANSTAAFL"})
+        return c.JSON(http.StatusOK, map[string]interface{}{"studentId": "学生番号", "message": "無料の昼食などない"})
     }
 }
